@@ -1,0 +1,5 @@
+calculator_app/
+│
+├── app.py
+└── templates/
+    └── index.html
