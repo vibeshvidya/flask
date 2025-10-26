@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kerala Rainwatch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>🌧️ Kerala Rainwatch Dashboard</header>
+
+    <div id="content">
+        <p>Real-time rainfall and temperature data for Kerala districts</p>
+        <img src="https://www.keralatravels.com/userfiles/1477384304_kerala-district-wise-map.jpg" alt="Kerala Map">
+
+        <div id="last-updated"></div>
+        <div class="chart-container">
+            <canvas id="rainChart"></canvas>
+        </div>
+    </div>
+
+    <footer>Data Source: Open-Meteo API | Built with Flask + Chart.js</footer>
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+
+</html>

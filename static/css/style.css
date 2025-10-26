@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #cce5ff, #e6ffe6);
+    color: #222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #007b5e;
+    color: white;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#content {
+    padding: 30px;
+}
+
+.chart-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+#last-updated {
+    margin: 20px;
+    font-style: italic;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
